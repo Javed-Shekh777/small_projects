@@ -1,0 +1,12 @@
+@import "tailwindcss";
+.calc-btn {
+    @apply rounded-[25px] text-center flex items-center justify-center 
+           shadow-[0_5px_0_#915100] 
+           inset-shadow-[0_1px_0_#FFE5C4] 
+           text-lg font-semibold p-3 
+           transition-all duration-100 ease-in-out;
+  }
+  .calc-btn:active {
+    transform: translateY(4px);
+    box-shadow: 0 1px 0 #915100 inset, 0 2px 0 #FFE5C4;
+  }
