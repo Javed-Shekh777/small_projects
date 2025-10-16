@@ -54,6 +54,41 @@ function App() {
       description: "Accordian component built using React.",
       link: "/accordian",
     },
+     {
+      id: 7,
+      imgUrl: "/authentication.jpg",
+      title: "Temperature Calculator",
+      description: "A temperature calculator built using React.",
+      link: "/temp-calc",
+    },
+     {
+      id: 8,
+      imgUrl: "/authentication.jpg",
+      title: "Tip Calculator",
+      description: "A tip calculator built using React.",
+      link: "/tip-calc",
+    },
+     {
+      id: 9,
+      imgUrl: "/authentication.jpg",
+      title: "Toast Notification",
+      description: "A toast notification built using React.",
+      link: "/toast",
+    },
+     {
+      id: 9,
+      imgUrl: "/authentication.jpg",
+      title: "Lorem Ipsum Generator",
+      description: "A project to generate random lorem ipsum with tag or without tag.",
+      link: "/lorem",
+    },
+    {
+      id: 10,
+      imgUrl: "/authentication.jpg",
+      title: "Age Calculator",
+      description: "A project to calculate age.",
+      link: "/age-calc",
+    },
   ];
 
 

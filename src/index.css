@@ -1,4 +1,7 @@
 @import "tailwindcss";
+
+ 
+
 .calc-btn {
     @apply rounded-[25px] text-center flex items-center justify-center 
            shadow-[0_5px_0_#915100] 
@@ -10,3 +13,37 @@
     transform: translateY(4px);
     box-shadow: 0 1px 0 #915100 inset, 0 2px 0 #FFE5C4;
   }
+
+
+
+ 
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+.animate-fadeOut {
+  animation: fadeOut 0.4s ease-in forwards;
+}
