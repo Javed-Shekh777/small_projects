@@ -23,7 +23,7 @@ const BgChanger = () => {
     }, [bg.bgChange]);
 
     return (
-        <main className="min-h-screen w-full flex items-center justify-center  p-4">
+        <main className="h-full w-full flex items-center justify-center  p-4">
             <div className=" rounded-3xl shadow-2xl w-full max-w-sm p-6">
                 {/* Header */}
                 <div className="flex items-center gap-3 mb-6">

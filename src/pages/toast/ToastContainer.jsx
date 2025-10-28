@@ -235,7 +235,7 @@ const Toast = ({ msg, icon, onClose, position }) => {
 
     return (
         <section
-            className={`fixed ${getPositionClass(position)} shadow bg-white w-fit p-3 rounded-lg flex items-center transition-all duration-300
+            className={`fixed ${getPositionClass(position)} z-[1000] shadow bg-white w-fit p-3 rounded-lg flex items-center transition-all duration-300
         ${fadeOut ? 'animate-fadeOut' : 'animate-fadeIn'}
       `}
 

@@ -22,7 +22,7 @@ const Calculator = () => {
   };
 
   return (
-    <main className="min-h-screen w-full flex items-center justify-center bg-gradient-to-br from-blue-100 to-indigo-200 p-4">
+    <main className=" w-full flex items-center justify-center bg-gradient-to-br from-blue-100 to-indigo-200 p-4">
       <div className="bg-white rounded-3xl shadow-2xl w-full max-w-sm p-6">
         {/* Header */}
         <div className="flex items-center gap-3 mb-6">

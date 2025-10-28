@@ -62,7 +62,7 @@ const TipCalculator = () => {
 
 
     return (
-        <main className="h-screen w-screen flex justify-center items-center bg-gradient-to-br from-blue-50 to-indigo-100 ">
+        <main className="h-full w-full py-10 flex justify-center items-center bg-gradient-to-br from-blue-50 to-indigo-100 ">
             <div className="bg-white rounded-2xl shadow-xl w-[350px] sm:mx-5 m-2.5">
                 {/* Header */}
                 <div className="flex p-5 items-center justify-center gap-x-2 shadow mb-4 border-b border-b-[rgba(0,0,0,0.1)] pb-3">

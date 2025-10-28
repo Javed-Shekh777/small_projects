@@ -20,7 +20,7 @@ const PasswordChecker = () => {
         .filter(Boolean).length;
 
     return (
-        <main className="h-screen w-screen flex justify-center items-center bg-gradient-to-br from-blue-50 to-indigo-100">
+        <main className="h-full py-10 w-full flex justify-center items-center bg-gradient-to-br from-blue-50 to-indigo-100">
             <div className="bg-white p-6 rounded-2xl shadow-xl w-[350px]">
                 {/* Header */}
                 <div className="flex items-center gap-x-2 mb-4">

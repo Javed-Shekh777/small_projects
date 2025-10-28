@@ -6,12 +6,12 @@ import Footer from './layout/Footer';
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen bg-gray-100">
+    <div className="flex flex-col min-h-screen ">
       {/* Navbar stays at the top */}
       <Navbar />
 
       {/* Main content area */}
-      <main className="flex-grow container mx-auto px-4 py-6">
+      <main className="flex-grow container mx-auto px-4 py-6 mt-14 ">
         <Outlet />
       </main>
 
