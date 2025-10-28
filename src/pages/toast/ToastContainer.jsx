@@ -85,7 +85,7 @@ const ToastContainer = () => {
 
         setTimeout(() => {
             setShowToast(false);
-            setMessage('');
+            // setMessage('');
             setIcon(<MdCheckBox className="text-green-500" />);
         }, duration * 1000);
     };

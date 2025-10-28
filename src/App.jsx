@@ -89,8 +89,28 @@ function App() {
       description: "A project to calculate age.",
       link: "/age-calc",
     },
+    {
+      id: 11,
+      imgUrl: "/authentication.jpg",
+      title: "Background Changer",
+      description: "A project to change the background.",
+      link: "/bgchanger",
+    },
+     {
+      id: 12,
+      imgUrl: "/authentication.jpg",
+      title: "Password Generator",
+      description: "A project to generate random password.",
+      link: "/pswgen",
+    },
+    {
+      id: 13,
+      imgUrl: "/authentication.jpg",
+      title: "BMI Calculator",
+      description: "A project to calculate BMI.",
+      link: "/bmicalc",
+    },
   ];
-
 
   return (
     <div className="min-h-screen bg-gray-100 p-6">

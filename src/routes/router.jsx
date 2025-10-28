@@ -12,6 +12,9 @@ import TipCalculator from '../pages/tipCalc/TipCalculator.jsx';
 import ToastContainer from '../pages/toast/ToastContainer.jsx';
 import LoremIpsum from '../pages/loremIpsum/LoremIpsum.jsx';
 import AgeCalculator from '../pages/ageCalc/AgeCalculator.jsx';
+import BgChanger from '../pages/bgChanger/BgChanger.jsx';
+import PasswordGenerator from '../pages/pswGenerator/PasswordGenerator.jsx';
+import BMICalc from '../pages/bmiCal/BMICalc.jsx';
 
 
 
@@ -70,6 +73,18 @@ const router = createBrowserRouter([
      {
         path: "age-calc",
         element: <AgeCalculator />,
+    },
+     {
+        path: "bgchanger",
+        element: <BgChanger />,
+    },
+     {
+        path: "pswgen",
+        element: <PasswordGenerator />,
+    },
+     {
+        path: "bmicalc",
+        element: <BMICalc />,
     }
 ]);
 

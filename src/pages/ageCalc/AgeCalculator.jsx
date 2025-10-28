@@ -32,7 +32,7 @@ const AgeCalculator = () => {
     months += 12;
   }
 
-  const result = `Years: ${years}, Months: ${months}, Days: ${days}`;
+  const result = `${years} Years, ${months} Months, ${days} Days`;
   setAge(result);
   setDob('');
 };
